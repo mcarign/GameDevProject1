@@ -15,6 +15,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Background","order":1,"path":"folders/Sprites/Background.yy",},
+    {"name":"Enemies","order":3,"path":"folders/Sprites/Enemies.yy",},
+    {"name":"PowerUps","order":4,"path":"folders/Sprites/PowerUps.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_camobug","order":13,"path":"objects/obj_camobug/obj_camobug.yy",},
@@ -27,6 +30,7 @@
     {"name":"obj_tongue","order":1,"path":"objects/obj_tongue/obj_tongue.yy",},
     {"name":"obj_boomslang","order":3,"path":"objects/obj_boomslang/obj_boomslang.yy",},
     {"name":"obj_marker","order":7,"path":"objects/obj_marker/obj_marker.yy",},
+    {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
     {"name":"obj_hornbill","order":2,"path":"objects/obj_hornbill/obj_hornbill.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
