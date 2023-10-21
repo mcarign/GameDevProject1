@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_temp_flyer",
+    "path": "sprites/spr_temp_flyer/spr_temp_flyer.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
