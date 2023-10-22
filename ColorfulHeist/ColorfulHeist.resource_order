@@ -29,6 +29,7 @@
     {"name":"obj_hornbeetle","order":11,"path":"objects/obj_hornbeetle/obj_hornbeetle.yy",},
     {"name":"obj_tongue","order":1,"path":"objects/obj_tongue/obj_tongue.yy",},
     {"name":"obj_boomslang","order":3,"path":"objects/obj_boomslang/obj_boomslang.yy",},
+    {"name":"spr_1st_draft_background","order":1,"path":"sprites/spr_1st_draft_background/spr_1st_draft_background.yy",},
     {"name":"obj_marker","order":7,"path":"objects/obj_marker/obj_marker.yy",},
     {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
