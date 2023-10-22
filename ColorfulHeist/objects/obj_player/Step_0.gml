@@ -2,7 +2,7 @@
 // You can write your code in this editor
 var jump_height = -4;
 
-if instance_place(x,y, obj_ladder){
+if instance_place(x,y, obj_vine){
 	//if keyboard_check(vk_up) || keyboard_check(vk_down){
 	if keyboard_check(vk_space) && state == States.Regular{
 		state = States.Climbing
@@ -14,7 +14,7 @@ if instance_place(x,y, obj_ladder){
 else{
 	//climbing = false;
 	state = States.Regular;
-	sprite_index = spr_player;
+	sprite_index = spr_temp_player;
 }
 
 if (state == States.Climbing /*climbing*/){
