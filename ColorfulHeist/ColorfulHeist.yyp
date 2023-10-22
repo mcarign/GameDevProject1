@@ -52,6 +52,7 @@
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
+    {"id":{"name":"spr_temp_player","path":"sprites/spr_temp_player/spr_temp_player.yy",},},
     {"id":{"name":"obj_artifact","path":"objects/obj_artifact/obj_artifact.yy",},},
     {"id":{"name":"spr_temp_flyer","path":"sprites/spr_temp_flyer/spr_temp_flyer.yy",},},
     {"id":{"name":"obj_hornbill","path":"objects/obj_hornbill/obj_hornbill.yy",},},

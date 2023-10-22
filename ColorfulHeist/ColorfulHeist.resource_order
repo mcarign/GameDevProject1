@@ -32,6 +32,7 @@
     {"name":"spr_1st_draft_background","order":1,"path":"sprites/spr_1st_draft_background/spr_1st_draft_background.yy",},
     {"name":"obj_marker","order":7,"path":"objects/obj_marker/obj_marker.yy",},
     {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
+    {"name":"spr_temp_player","order":5,"path":"sprites/spr_temp_player/spr_temp_player.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
     {"name":"obj_hornbill","order":2,"path":"objects/obj_hornbill/obj_hornbill.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
