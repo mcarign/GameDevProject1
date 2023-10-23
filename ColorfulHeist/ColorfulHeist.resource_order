@@ -21,7 +21,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_camobug","order":13,"path":"objects/obj_camobug/obj_camobug.yy",},
-    {"name":"obj_vine","order":5,"path":"objects/obj_vine/obj_vine.yy",},
+    {"name":"obj_vertical_vine","order":5,"path":"objects/obj_vertical_vine/obj_vertical_vine.yy",},
     {"name":"obj_block","order":6,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_vinesnake","order":4,"path":"objects/obj_vinesnake/obj_vinesnake.yy",},
     {"name":"obj_exit","order":10,"path":"objects/obj_exit/obj_exit.yy",},
@@ -35,6 +35,7 @@
     {"name":"spr_temp_player","order":5,"path":"sprites/spr_temp_player/spr_temp_player.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
     {"name":"obj_hornbill","order":2,"path":"objects/obj_hornbill/obj_hornbill.yy",},
+    {"name":"obj_horizontal_vine","order":14,"path":"objects/obj_horizontal_vine/obj_horizontal_vine.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
   ],
 }

@@ -11,7 +11,8 @@ enum Ability{
 // vines in either direction is not so easy with one enum.
 enum States{
 	Regular,
-	Climbing
+	ClimbingVertical,
+    ClimbingHorizontal
 }
 
 //Initializing the Ability state and Player State

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_vine",
+  "name": "obj_horizontal_vine",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
