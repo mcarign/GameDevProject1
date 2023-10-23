@@ -1,4 +1,4 @@
-var jump_height = -4;
+/*var jump_height = -4;
 
 if instance_place(x,y, obj_vertical_vine){
 	//if keyboard_check(vk_up) || keyboard_check(vk_down){
@@ -70,5 +70,7 @@ if instance_place(x, y + 1, obj_block) {
 
 if vspeed > 12 {
     vspeed = min(vspeed, 12);
-}
+}*/
+
+
 

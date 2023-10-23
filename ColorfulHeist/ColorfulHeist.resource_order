@@ -24,6 +24,7 @@
     {"name":"obj_vertical_vine","order":5,"path":"objects/obj_vertical_vine/obj_vertical_vine.yy",},
     {"name":"obj_block","order":6,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_vinesnake","order":4,"path":"objects/obj_vinesnake/obj_vinesnake.yy",},
+    {"name":"spr_temp_land","order":2,"path":"sprites/spr_temp_land/spr_temp_land.yy",},
     {"name":"obj_exit","order":10,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"obj_grubworm","order":12,"path":"objects/obj_grubworm/obj_grubworm.yy",},
     {"name":"obj_hornbeetle","order":11,"path":"objects/obj_hornbeetle/obj_hornbeetle.yy",},
@@ -36,6 +37,7 @@
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
     {"name":"obj_hornbill","order":2,"path":"objects/obj_hornbill/obj_hornbill.yy",},
     {"name":"obj_horizontal_vine","order":14,"path":"objects/obj_horizontal_vine/obj_horizontal_vine.yy",},
+    {"name":"spr_temp_other","order":6,"path":"sprites/spr_temp_other/spr_temp_other.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
   ],
 }
