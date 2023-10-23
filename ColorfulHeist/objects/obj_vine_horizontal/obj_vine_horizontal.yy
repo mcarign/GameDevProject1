@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_vinesnake",
+  "name": "obj_vine_horizontal",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,7 +9,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_vine_vertical",
+    "path": "objects/obj_vine_vertical/obj_vine_vertical.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_vine_horizontal",
+    "path": "sprites/spr_vine_horizontal/spr_vine_horizontal.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
