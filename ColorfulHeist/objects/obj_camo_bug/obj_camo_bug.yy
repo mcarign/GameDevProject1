@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_grubworm",
+  "name": "obj_camo_bug",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_healthup",
-    "path": "sprites/spr_temp_healthup/spr_temp_healthup.yy",
+    "name": "spr_camo_bug",
+    "path": "sprites/spr_camo_bug/spr_camo_bug.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_camobug",
+  "name": "obj_key",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

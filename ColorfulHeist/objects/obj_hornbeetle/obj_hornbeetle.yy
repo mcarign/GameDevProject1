@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_hornbeetle",
+    "path": "sprites/spr_hornbeetle/spr_hornbeetle.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
