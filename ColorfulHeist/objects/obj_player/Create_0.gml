@@ -4,7 +4,7 @@
 enum Ability{
 	NoAbility,
 	Camoflauge,
-	Attack
+	Rampage
 }
 
 // Might need to add ClimbHorizontal and ClimbVertical in case coding to climb

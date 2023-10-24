@@ -3,10 +3,7 @@ var jump_height = -5.4;
 if(instance_place(x,y, obj_vine_vertical)){
 	// Press "V" key to attach to vine and enter climbing state
 	if(keyboard_check(ord("V")) and state == States.Regular){
-		/* might need to add code for centering player over the 
-		   vine to avoid colliding with obj_block. Also might need a
-		   spr_climbing sprite for this action.
-		*/
+		/* Neeed a spr_climbing sprite for this action. */
 		state = States.Climbing;
 		vspeed = 0;
 		gravity = 0;
