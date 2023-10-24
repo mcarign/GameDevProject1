@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hornbeetle",
+  "name": "obj_horn_beetle",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hornbeetle",
-    "path": "sprites/spr_hornbeetle/spr_hornbeetle.yy",
+    "name": "spr_horn_beetle",
+    "path": "sprites/spr_horn_beetle/spr_horn_beetle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
