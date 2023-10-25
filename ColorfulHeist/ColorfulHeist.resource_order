@@ -15,10 +15,10 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Background","order":1,"path":"folders/Sprites/Background.yy",},
     {"name":"Enemies","order":3,"path":"folders/Sprites/Enemies.yy",},
+    {"name":"Player Sprites","order":10,"path":"folders/Sprites/Player Sprites.yy",},
     {"name":"PowerUps","order":4,"path":"folders/Sprites/PowerUps.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Player Sprites","order":10,"path":"folders/Sprites/Player Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_camo_bug","order":13,"path":"objects/obj_camo_bug/obj_camo_bug.yy",},
