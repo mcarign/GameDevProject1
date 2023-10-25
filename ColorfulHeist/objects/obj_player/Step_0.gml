@@ -1,9 +1,9 @@
 var jump_height = -5.4;
 
 // Press "V" key to shoot out tongue
-	if(keyboard_check(ord("V"))){
-		instance_create_layer(x, y, "Instances", obj_tongue);
-	}
+if(keyboard_check(ord("V"))){
+	instance_create_layer(x, y, "Instances", obj_tongue);
+}
 // Conditions to meet to attach to vine or when not attached
 if(instance_place(x,y, obj_vine_vertical)){
 	// Press space key to attach to vine and enter climbing state
@@ -12,12 +12,26 @@ if(instance_place(x,y, obj_vine_vertical)){
 		state = States.Climbing;
 		vspeed = 0;
 		gravity = 0;
-		sprite_index = spr_temp_player_climb;
+		// Sprite change if player is climbing with whatever Ability that is currently active
+		if ability == Ability.NoAbility{
+			sprite_index = spr_temp_player_climb;
+		}else if ability == Ability.Camoflauge{
+			// Need player camo_climb sprite
+			//sprite_index = spr_camo_climb;
+		}else if ability == Ability.Rampage{
+			// Need player rampage_climb sprite
+			//sprite_index = spr_rampage_climb;
+		}
 	}
 }else{
 	state = States.Regular;
 	if ability == Ability.NoAbility{
 		sprite_index = spr_temp_player;
+	}else if ability == Ability.Camoflauge{
+		// Need camo_regular sprite
+		//sprite_index = spr_camo_regular;
+	}else if ability == Ability.Rampage{
+		sprite_index = spr_temp_other;
 	}
 }
 
