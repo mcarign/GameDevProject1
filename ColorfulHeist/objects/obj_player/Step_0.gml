@@ -18,9 +18,11 @@ if(instance_place(x,y, obj_vine_vertical)){
 		}else if ability == Ability.Camoflauge{
 			// Need player camo_climb sprite
 			//sprite_index = spr_camo_climb;
+			alarm[0] = ability_timer;
 		}else if ability == Ability.Rampage{
 			// Need player rampage_climb sprite
 			//sprite_index = spr_rampage_climb;
+			alarm[0] = ability_timer;
 		}
 	}
 }else{
@@ -30,8 +32,10 @@ if(instance_place(x,y, obj_vine_vertical)){
 	}else if ability == Ability.Camoflauge{
 		// Need camo_regular sprite
 		//sprite_index = spr_camo_regular;
+		alarm[0] = ability_timer;
 	}else if ability == Ability.Rampage{
 		sprite_index = spr_temp_other;
+		alarm[0] = ability_timer;
 	}
 }
 
