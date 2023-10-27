@@ -40,8 +40,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_player",
-    "path": "sprites/spr_temp_player/spr_temp_player.yy",
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId": null,
   "visible": true,

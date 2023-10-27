@@ -28,7 +28,7 @@ if(instance_place(x,y, obj_vine_vertical)){
 }else{
 	state = States.Regular;
 	if ability == Ability.NoAbility{
-		sprite_index = spr_temp_player;
+		sprite_index = spr_player;
 	}else if ability == Ability.Camoflauge{
 		// Need camo_regular sprite
 		//sprite_index = spr_camo_regular;

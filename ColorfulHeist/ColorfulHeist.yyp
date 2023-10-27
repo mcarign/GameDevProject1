@@ -68,7 +68,7 @@
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
     {"id":{"name":"snd_tongue","path":"sounds/snd_tongue/snd_tongue.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
-    {"id":{"name":"spr_temp_player","path":"sprites/spr_temp_player/spr_temp_player.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"obj_artifact","path":"objects/obj_artifact/obj_artifact.yy",},},
     {"id":{"name":"spr_vine_horizontal","path":"sprites/spr_vine_horizontal/spr_vine_horizontal.yy",},},

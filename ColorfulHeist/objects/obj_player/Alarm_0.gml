@@ -1,3 +1,3 @@
 
-sprite_index = spr_temp_player;
+sprite_index = spr_player;
 ability = Ability.NoAbility;
