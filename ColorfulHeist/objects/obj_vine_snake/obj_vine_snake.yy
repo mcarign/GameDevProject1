@@ -38,10 +38,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":0,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_temp_flyer",
-    "path": "sprites/spr_temp_flyer/spr_temp_flyer.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

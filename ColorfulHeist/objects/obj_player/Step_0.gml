@@ -34,7 +34,7 @@ if(instance_place(x,y, obj_vine_vertical)){
 		//sprite_index = spr_camo_regular;
 		alarm[0] = ability_timer;
 	}else if ability == Ability.Rampage{
-		sprite_index = spr_temp_other;
+		sprite_index = spr_player_rampage;
 		alarm[0] = ability_timer;
 	}
 }
@@ -86,12 +86,12 @@ if(state == States.Climbing){
 	// Normal left, right, and jump movements
 	if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_block)) {
 		x += -move_speed
-		image_xscale = -1;
+		image_xscale = 1;
 	}
 
 	if (keyboard_check(vk_right) and !instance_place(x+move_speed, y, obj_block)) {
 		x += move_speed
-		image_xscale = 1;
+		image_xscale = -1;
 	}
 	if(keyboard_check(vk_up)){
 		if(instance_place(x, y+1, obj_block)){

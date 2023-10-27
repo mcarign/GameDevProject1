@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_flyer",
-    "path": "sprites/spr_temp_flyer/spr_temp_flyer.yy",
+    "name": "spr_hornbill",
+    "path": "sprites/spr_hornbill/spr_hornbill.yy",
   },
   "spriteMaskId": null,
   "visible": true,

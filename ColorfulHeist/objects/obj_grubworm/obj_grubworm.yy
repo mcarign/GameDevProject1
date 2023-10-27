@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_healthup",
-    "path": "sprites/spr_temp_healthup/spr_temp_healthup.yy",
+    "name": "spr_grubworn",
+    "path": "sprites/spr_grubworn/spr_grubworn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
