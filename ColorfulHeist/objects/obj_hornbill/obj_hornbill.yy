@@ -8,16 +8,15 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vine_snake","path":"objects/obj_vine_snake/obj_vine_snake.yy",},"propertyId":{"name":"travel_path","path":"objects/obj_vine_snake/obj_vine_snake.yy",},"value":"path_hornbill",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_vine_snake","path":"objects/obj_vine_snake/obj_vine_snake.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_vine_snake/obj_vine_snake.yy",},"value":"95",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_vine_snake",
-    "path": "objects/obj_vine_snake/obj_vine_snake.yy",
+    "name": "obj_boomslang",
+    "path": "objects/obj_boomslang/obj_boomslang.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,7 +31,10 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"travel_path","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"path_hornbill","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_hornbill",

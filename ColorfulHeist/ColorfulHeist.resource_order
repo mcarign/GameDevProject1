@@ -47,7 +47,9 @@
     {"name":"obj_hornbill","order":16,"path":"objects/obj_hornbill/obj_hornbill.yy",},
     {"name":"obj_controller","order":17,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"snd_jump","order":3,"path":"sounds/snd_jump/snd_jump.yy",},
+    {"name":"spr_title_layer","order":5,"path":"sprites/spr_title_layer/spr_title_layer.yy",},
     {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
+    {"name":"spr_player_death","order":5,"path":"sprites/spr_player_death/spr_player_death.yy",},
     {"name":"spr_hornbill","order":1,"path":"sprites/spr_hornbill/spr_hornbill.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
     {"name":"spr_vine_horizontal","order":4,"path":"sprites/spr_vine_horizontal/spr_vine_horizontal.yy",},
@@ -57,6 +59,7 @@
     {"name":"spr_marker","order":9,"path":"sprites/spr_marker/spr_marker.yy",},
     {"name":"snd_vine_grab","order":2,"path":"sounds/snd_vine_grab/snd_vine_grab.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
+    {"name":"spr_player_camo","order":4,"path":"sprites/spr_player_camo/spr_player_camo.yy",},
     {"name":"snd_music","order":5,"path":"sounds/snd_music/snd_music.yy",},
   ],
 }
