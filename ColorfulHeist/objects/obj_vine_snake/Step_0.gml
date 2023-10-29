@@ -2,7 +2,7 @@ if (x <= og_x + 1 or x >= og_x - 1) and (y <= og_y + 1 or y >= og_y - 1){
 	image_angle = 0;
 }
 
-if distance_to_object(obj_player) <= attack_range{
+if distance_to_object(obj_player) <= attack_range and obj_player.ability != Ability.Camoflauge{
 	if instance_place(x, y-15, obj_vine_vertical) and obj_player.y < y {
 		image_angle = 0;
 		y -= hsp;

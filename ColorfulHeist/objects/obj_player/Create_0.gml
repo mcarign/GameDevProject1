@@ -17,5 +17,6 @@ enum States{
 //Initializing the Ability state and Player State
 gravity_direction = 270;
 image_xscale = -1;
+has_key = false;
 ability = Ability.NoAbility;
 state = States.Regular;

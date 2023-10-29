@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"1.5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"1.7",},
   ],
   "parent": {
     "name": "Objects",
@@ -33,7 +33,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"travel_path","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"path_hornbill","varType":5,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"80","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attack_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":0,},
   ],
   "solid": false,
   "spriteId": {

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_key",
+  "name": "obj_gate",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -24,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_life",
-    "path": "sprites/spr_life/spr_life.yy",
+    "name": "spr_death",
+    "path": "sprites/spr_death/spr_death.yy",
   },
   "spriteMaskId": null,
   "visible": true,
