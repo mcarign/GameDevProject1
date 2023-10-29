@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_player_death.mp3",
   "type": 0,
-  "volume": 0.19,
+  "volume": 0.22,
 }

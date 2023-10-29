@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"1.5",},
   ],
   "parent": {
     "name": "Objects",

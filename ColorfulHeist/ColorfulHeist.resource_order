@@ -49,6 +49,7 @@
     {"name":"obj_controller","order":17,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"snd_jump","order":3,"path":"sounds/snd_jump/snd_jump.yy",},
     {"name":"spr_title_layer","order":5,"path":"sprites/spr_title_layer/spr_title_layer.yy",},
+    {"name":"obj_enemy_dead","order":19,"path":"objects/obj_enemy_dead/obj_enemy_dead.yy",},
     {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"spr_player_death","order":5,"path":"sprites/spr_player_death/spr_player_death.yy",},
     {"name":"spr_hornbill","order":1,"path":"sprites/spr_hornbill/spr_hornbill.yy",},

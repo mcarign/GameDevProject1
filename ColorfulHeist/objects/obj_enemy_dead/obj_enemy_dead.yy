@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_death",
-  "eventList": [],
+  "name": "obj_enemy_dead",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_death",
-    "path": "sprites/spr_death/spr_death.yy",
+    "name": "spr_temp_other",
+    "path": "sprites/spr_temp_other/spr_temp_other.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

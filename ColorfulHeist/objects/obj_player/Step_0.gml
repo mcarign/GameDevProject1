@@ -2,6 +2,7 @@ var jump_height = -5.4;
 
 /* Press "V" key to shoot out tongue */
 if(keyboard_check(ord("V"))){
+	audio_play_sound(snd_tongue, 10, false);
 	instance_create_layer(x, y, "Instances", obj_tongue);
 }
 
@@ -12,18 +13,17 @@ if(keyboard_check(ord("V"))){
 if(instance_place(x,y, obj_vine_vertical)){
 	if(keyboard_check(vk_space) and state == States.Regular){
 		// Neeed a spr_climbing sprite for this action. 
+		audio_play_sound(snd_vine_grab,10,false);
 		state = States.Climbing;
 		vspeed = 0;
 		gravity = 0;
 		// Sprite change if player is climbing with whatever Ability that is currently active
 		if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability != Ability.Camoflauge{
 			ability = Ability.Camoflauge;
-			//sprite_index = spr_player_climb_camo;
 			camo_bug_count-= 1;
 			alarm[0] = ability_timer;
 		}else if horn_beetle_count > 0 and keyboard_check_pressed(ord("X")) and ability != Ability.Rampage{
 			ability = Ability.Rampage;
-			//sprite_index = spr_player_climb_rampage;
 			horn_beetle_count-= 1;
 			alarm[0] = ability_timer;
 		}
@@ -32,14 +32,14 @@ if(instance_place(x,y, obj_vine_vertical)){
 	state = States.Regular;
 	if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability != Ability.Camoflauge{
 		ability = Ability.Camoflauge;
-		//sprite_index = spr_player_camo;
 		camo_bug_count-= 1;
 		alarm[0] = ability_timer;
+		audio_play_sound(snd_camo_activate,10,false);
 	}else if horn_beetle_count > 0 and keyboard_check_pressed(ord("X")) and ability != Ability.Rampage{
 		ability = Ability.Rampage;
-		//sprite_index = spr_player_rampage;
 		horn_beetle_count-= 1;
 		alarm[0] = ability_timer;
+		//audio_play_sound(snd_rampage_active,10,false);
 	}
 }
 
@@ -52,7 +52,7 @@ if state ==  States.Climbing{
 	}else if ability == Ability.Rampage{
 		//sprite_index = spr_player_climb_rampage;
 	}else{
-		sprite_index = spr_player;
+		sprite_index = spr_temp_player_climb;
 	}
 }else{
 	if ability == Ability.Camoflauge{
@@ -120,6 +120,7 @@ if(state == States.Climbing){
 	}
 	if(keyboard_check(vk_up)){
 		if(instance_place(x, y+1, obj_block)){
+			audio_play_sound(snd_jump, 10, false);
 			vspeed = jump_height;
 		}
 		else{

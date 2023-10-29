@@ -1,16 +1,16 @@
 // UI for lives 
-draw_set_color(c_green);
-draw_rectangle(50, 5, 150, 45, false);
+draw_set_color(c_orange);
+draw_rectangle(50, 5, 200, 45, false);
 
 draw_set_halign(fa_left);
 
-var life_sprite = spr_life;
-var x_start = 50;
-var x_offset = 24;
+var life_sprite = spr_player;
+var x_start = 80;
+var x_offset = 48;
 
 for (var i = 0; i < lives; i++) {
     var x_position = x_start + (x_offset * i);
-    draw_sprite(life_sprite, 0, x_position, 0);
+    draw_sprite(life_sprite, 0, x_position, 30);
 }
 
 
@@ -24,7 +24,7 @@ if (instance_exists(obj_player)) {
         for (var i = 0; i < obj_player.camo_bug_count; i++) {
             draw_sprite(camo_bug_sprite, 0, x_start + ability_offset, 80);
             draw_text(x_start + ability_offset + 30, 80, string(max(0, obj_player.camo_bug_count)));
-			draw_text(x_start + ability_offset + 30, 100, "Press F to activate");
+			draw_text(x_start + ability_offset + 30, 100, "Press C to activate");
         }
 		 
 
@@ -37,7 +37,7 @@ if (instance_exists(obj_player)) {
         for (var i = 0; i < obj_player.horn_beetle_count; i++) {
             draw_sprite(horn_beetle_sprite, 0, x_start + ability_offset, 130);
             draw_text(x_start + ability_offset + 30, 130, string(max(0, obj_player.horn_beetle_count)));
-			draw_text(x_start + ability_offset + 30, 150, "Press G to activate");
+			draw_text(x_start + ability_offset + 30, 150, "Press X to activate");
         }
 		 
 
