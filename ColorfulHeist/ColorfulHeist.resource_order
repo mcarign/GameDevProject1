@@ -29,6 +29,7 @@
     {"name":"obj_vine_snake","order":4,"path":"objects/obj_vine_snake/obj_vine_snake.yy",},
     {"name":"spr_grubworn","order":4,"path":"sprites/spr_grubworn/spr_grubworn.yy",},
     {"name":"spr_vine","order":3,"path":"sprites/spr_vine/spr_vine.yy",},
+    {"name":"obj_player_dead","order":18,"path":"objects/obj_player_dead/obj_player_dead.yy",},
     {"name":"spr_temp_land","order":2,"path":"sprites/spr_temp_land/spr_temp_land.yy",},
     {"name":"obj_exit","order":10,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"spr_player_rampage","order":3,"path":"sprites/spr_player_rampage/spr_player_rampage.yy",},

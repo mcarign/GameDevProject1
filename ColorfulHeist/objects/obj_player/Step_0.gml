@@ -1,41 +1,66 @@
 var jump_height = -5.4;
 
-// Press "V" key to shoot out tongue
+/* Press "V" key to shoot out tongue */
 if(keyboard_check(ord("V"))){
 	instance_create_layer(x, y, "Instances", obj_tongue);
 }
-// Conditions to meet to attach to vine or when not attached
+
+/* Conditions to meet to attach to vine or when not attached. Press "space" key 
+   to attach to vine and enter climbing state. Sprite controller in this block 
+   too, determines what sprite to use depending on the Ability state.
+*/
 if(instance_place(x,y, obj_vine_vertical)){
-	// Press space key to attach to vine and enter climbing state
 	if(keyboard_check(vk_space) and state == States.Regular){
-		/* Neeed a spr_climbing sprite for this action. */
+		// Neeed a spr_climbing sprite for this action. 
 		state = States.Climbing;
 		vspeed = 0;
 		gravity = 0;
 		// Sprite change if player is climbing with whatever Ability that is currently active
-		if ability == Ability.NoAbility{
-			sprite_index = spr_temp_player_climb;
-		}else if ability == Ability.Camoflauge{
-			// Need player camo_climb sprite
-			//sprite_index = spr_camo_climb;
+		if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability != Ability.Camoflauge{
+			ability = Ability.Camoflauge;
+			//sprite_index = spr_player_climb_camo;
+			camo_bug_count-= 1;
 			alarm[0] = ability_timer;
-		}else if ability == Ability.Rampage{
-			// Need player rampage_climb sprite
-			//sprite_index = spr_rampage_climb;
+		}else if horn_beetle_count > 0 and keyboard_check_pressed(ord("X")) and ability != Ability.Rampage{
+			ability = Ability.Rampage;
+			//sprite_index = spr_player_climb_rampage;
+			horn_beetle_count-= 1;
 			alarm[0] = ability_timer;
 		}
 	}
 }else{
 	state = States.Regular;
-	if ability == Ability.NoAbility{
-		sprite_index = spr_player;
-	}else if ability == Ability.Camoflauge{
-		// Need camo_regular sprite
-		//sprite_index = spr_camo_regular;
+	if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability != Ability.Camoflauge{
+		ability = Ability.Camoflauge;
+		//sprite_index = spr_player_camo;
+		camo_bug_count-= 1;
 		alarm[0] = ability_timer;
+	}else if horn_beetle_count > 0 and keyboard_check_pressed(ord("X")) and ability != Ability.Rampage{
+		ability = Ability.Rampage;
+		//sprite_index = spr_player_rampage;
+		horn_beetle_count-= 1;
+		alarm[0] = ability_timer;
+	}
+}
+
+/* This block of code actually changes the sprite based on the state that the Sprite 
+   Controller does above.
+*/
+if state ==  States.Climbing{
+	if ability == Ability.Camoflauge{
+		//sprite_index = spr_player_climb_camo;
+	}else if ability == Ability.Rampage{
+		//sprite_index = spr_player_climb_rampage;
+	}else{
+		sprite_index = spr_player;
+	}
+}else{
+	if ability == Ability.Camoflauge{
+		sprite_index = spr_player_camo;
 	}else if ability == Ability.Rampage{
 		sprite_index = spr_player_rampage;
-		alarm[0] = ability_timer;
+	}else{
+		sprite_index = spr_player;
 	}
 }
 

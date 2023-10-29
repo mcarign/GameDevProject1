@@ -4,8 +4,9 @@ if instance_exists(obj_player){
 	if distance_to_object(obj_player) <= attack_range{
 		path_end();
 		direction = point_direction(x, y, obj_player.x, obj_player.y);
-		speed = hsp + 1;
-	}else if distance_to_object(obj_player) > attack_range{
+		speed = hsp;
+	}else if direction == 0 {
+		path_start(travel_path, hsp, path_action_restart, true);
 		
 	}
 }
