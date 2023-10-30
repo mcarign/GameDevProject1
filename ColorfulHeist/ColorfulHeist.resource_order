@@ -52,6 +52,7 @@
     {"name":"spr_title_layer","order":5,"path":"sprites/spr_title_layer/spr_title_layer.yy",},
     {"name":"obj_enemy_dead","order":19,"path":"objects/obj_enemy_dead/obj_enemy_dead.yy",},
     {"name":"spr_death","order":2,"path":"sprites/spr_death/spr_death.yy",},
+    {"name":"obj_tutorial_instructions","order":21,"path":"objects/obj_tutorial_instructions/obj_tutorial_instructions.yy",},
     {"name":"spr_player_death","order":5,"path":"sprites/spr_player_death/spr_player_death.yy",},
     {"name":"spr_hornbill","order":1,"path":"sprites/spr_hornbill/spr_hornbill.yy",},
     {"name":"obj_artifact","order":9,"path":"objects/obj_artifact/obj_artifact.yy",},
@@ -64,6 +65,7 @@
     {"name":"spr_temp_win","order":6,"path":"sprites/spr_temp_win/spr_temp_win.yy",},
     {"name":"obj_death","order":8,"path":"objects/obj_death/obj_death.yy",},
     {"name":"spr_player_camo","order":4,"path":"sprites/spr_player_camo/spr_player_camo.yy",},
+    {"name":"Room_Tutorial","order":1,"path":"rooms/Room_Tutorial/Room_Tutorial.yy",},
     {"name":"snd_music","order":5,"path":"sounds/snd_music/snd_music.yy",},
   ],
 }

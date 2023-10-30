@@ -17,6 +17,7 @@ for (var i = 0; i < lives; i++) {
 var ability_offset = 5;
 
 
+// UI for the abilities 
 if (instance_exists(obj_player)) {
 
     var camo_bug_sprite = spr_camo_bug;
