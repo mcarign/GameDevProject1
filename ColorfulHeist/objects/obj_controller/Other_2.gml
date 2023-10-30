@@ -1,3 +1,3 @@
-global.game_over = false
+global.game_over = false;
 lives = 3
 
