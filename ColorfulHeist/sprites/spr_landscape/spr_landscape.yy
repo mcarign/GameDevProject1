@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_landscape",
-  "bbox_bottom": 451,
-  "bbox_left": 13,
-  "bbox_right": 233,
-  "bbox_top": 3,
+  "bbox_bottom": 1035,
+  "bbox_left": 36,
+  "bbox_right": 547,
+  "bbox_top": 12,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee38f8ff-6af8-41ba-82bf-f0d70554555e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"138db035-8242-43a7-b90d-5058aaa53886",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 470,
+  "height": 1100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"906a50fb-e2c7-470a-8d60-17bdf4ecb0f0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"690f2bdb-aa02-45c1-98bf-f795ed07fba7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee38f8ff-6af8-41ba-82bf-f0d70554555e","path":"sprites/spr_landscape/spr_landscape.yy",},},},"Disabled":false,"id":"eaf0bae1-a1f4-4e21-861a-0977087c7eb8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"138db035-8242-43a7-b90d-5058aaa53886","path":"sprites/spr_landscape/spr_landscape.yy",},},},"Disabled":false,"id":"4aa5c15c-515c-4fce-8b8e-11ec24efb3ee","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 256,
+  "width": 600,
 }
