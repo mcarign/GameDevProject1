@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_other",
-    "path": "sprites/spr_temp_other/spr_temp_other.yy",
+    "name": "spr_artifact",
+    "path": "sprites/spr_artifact/spr_artifact.yy",
   },
   "spriteMaskId": null,
   "visible": true,

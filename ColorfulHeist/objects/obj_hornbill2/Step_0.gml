@@ -19,10 +19,8 @@ if instance_exists(obj_player){
 	}
 	if distance_to_point(restart_x, restart_y) <= 10 and hornbillState == HornbillState2.Returning{
 		hornbillState = HornbillState2.Patrol;
-		if room == Room_Tutorial{
-			path_start(path_tutorial, hsp, path_action_restart, true);
-		}else if room == Room1{
-			path_start(path_hornbill, hsp, path_action_restart, true);
-		}
+		
+		path_start(path_hornbill2, hsp, path_action_restart, true);
+		
 	}
 }

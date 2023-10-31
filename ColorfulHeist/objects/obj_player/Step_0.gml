@@ -1,4 +1,4 @@
-var jump_height = -5.4;
+var jump_height = -5.7;
 
 /* Press "V" key to shoot out tongue */
 if(keyboard_check(ord("V"))){
@@ -49,11 +49,11 @@ if(instance_place(x,y, obj_vine_vertical)){
 */
 if state ==  States.Climbing{
 	if ability == Ability.Camoflauge{
-		//sprite_index = spr_player_climb_camo;
+		sprite_index = spr_player_camo_climb;
 	}else if ability == Ability.Rampage{
-		//sprite_index = spr_player_climb_rampage;
+		sprite_index = spr_player_rampage_climb;
 	}else{
-		sprite_index = spr_temp_player_climb;
+		sprite_index = spr_player_climb;
 	}
 }else{
 	if ability == Ability.Camoflauge{
@@ -71,32 +71,36 @@ if(state == States.Climbing){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		if image_xscale == 1{ image_angle = 90;
-		}else{image_angle = -90;}
+		//if image_xscale == 1{ image_angle = 0;
+		//}else{image_angle = 180;}
+		image_angle = 0;
 		y -= climb_speed;
 	}
 	if keyboard_check(vk_down){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		if image_xscale == 1{ image_angle = 270;
-		}else{image_angle = -270;}
+		//if image_xscale == 1{ image_angle = 270;
+		//}else{image_angle = -270;}
+		image_angle = 180;
 		y += climb_speed;
 	}
 	if keyboard_check(vk_left){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		if image_xscale == 1{ image_angle = 180;
-		}else{image_angle = 0;}
+		//if image_xscale == 1{ image_angle = 180;
+		//}else{image_angle = 0;}
+		image_angle = 90;
 		x -= climb_speed;
 	}
 	if keyboard_check(vk_right){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		if image_xscale == 1{ image_angle = 0;
-		}else{image_angle = 180;}
+		//if image_xscale == 1{ image_angle = 0;
+		//}else{image_angle = 180;}
+		image_angle = -90;
 		x += climb_speed;
 	}
 	// If player moves off the vine while in Climbing state, they will return to Regular state.

@@ -33,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_other",
-    "path": "sprites/spr_temp_other/spr_temp_other.yy",
+    "name": "spr_boomslang",
+    "path": "sprites/spr_boomslang/spr_boomslang.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -3,7 +3,6 @@
   "resourceVersion": "1.0",
   "name": "obj_vine_snake",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -40,8 +39,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_other",
-    "path": "sprites/spr_temp_other/spr_temp_other.yy",
+    "name": "spr_vine_snake",
+    "path": "sprites/spr_vine_snake/spr_vine_snake.yy",
   },
   "spriteMaskId": null,
   "visible": true,
