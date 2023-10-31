@@ -1,4 +1,4 @@
-var jump_height = -5.4;
+var jump_height = -5.6;
 
 /* Press "V" key to shoot out tongue */
 if(keyboard_check(ord("V"))){

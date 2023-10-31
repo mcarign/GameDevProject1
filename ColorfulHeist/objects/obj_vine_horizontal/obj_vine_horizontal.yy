@@ -33,5 +33,5 @@
     "path": "sprites/spr_vine_horizontal/spr_vine_horizontal.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
