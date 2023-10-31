@@ -151,6 +151,7 @@
 89,90,92,-2147483648,-2147483648,91,92,-4,-2147483648,1,104,-13,-2147483648,4,104,-2147483648,-2147483648,96,-3,-2147483648,1,96,-3,-2147483648,1,96,-18,-2147483648,4,106,
 -2147483648,-2147483648,104,-3,-2147483648,1,104,-12,-2147483648,1,62,-64,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
+<<<<<<< HEAD
 3,60,-2147483648,16,-27,47,3,60,-2147483648,16,-27,47,3,60,-2147483648,40,-27,28,31,60,-2147483648,48,49,50,50,49,48,49,50,50,
 49,53,48,49,50,50,49,48,49,50,50,49,51,48,49,50,53,51,52,60,-19,-2147483648,1,72,-4,-2147483648,1,84,-3,-2147483648,
 3,72,60,72,-5,-2147483648,1,72,-7,-2147483648,1,72,-4,-2147483648,1,35,-4,33,7,45,-2147483648,-2147483648,57,33,20,36,-3,-2147483648,2,60,
@@ -211,6 +212,17 @@
 40,53,54,53,54,-26,-2147483648,-3,41,26,-2147483648,51,52,53,51,52,53,54,51,52,53,54,51,52,53,54,51,52,53,54,51,52,53,54,53,54,-30,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
 >>>>>>> parent of c5ed709 (editing with tilesets in tutorial room and main room)
+=======
+3,57,-2147483648,16,-27,47,3,57,-2147483648,16,-27,47,3,57,-2147483648,40,-27,28,31,57,-2147483648,48,49,50,50,49,48,49,50,50,
+49,53,48,49,50,50,49,48,49,50,50,49,51,48,49,50,53,51,52,57,-29,-2147483648,1,57,-29,-2147483648,2,20,36,-3,
+-2147483648,2,57,81,-23,-2147483648,2,47,2,-6,20,1,36,-5,81,-3,120,2,34,36,-11,-2147483648,1,4,-7,28,1,30,-8,33,
+8,29,38,-2147483648,-2147483648,34,20,20,21,-5,33,17,24,53,51,52,51,52,49,53,50,48,51,48,48,49,50,50,49,-4,
+-2147483648,5,16,47,4,38,56,-4,-2147483648,1,24,-18,-2147483648,8,34,21,29,28,38,56,91,92,-3,-2147483648,7,24,48,49,50,107,
+-2147483648,43,-12,33,8,29,38,53,51,52,-2147483648,96,34,-3,20,1,24,-5,-2147483648,15,51,52,53,51,48,49,50,51,52,53,
+51,52,48,49,50,-4,-2147483648,2,96,16,-3,47,1,24,-24,-2147483648,2,104,16,-3,47,1,24,-24,-2147483648,2,86,16,-3,47,
+1,2,-7,20,5,36,64,65,66,34,-13,20,1,1,-11,47,1,2,-3,20,1,1,-17,47,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_cave_background","path":"sprites/spr_cave_background/spr_cave_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+>>>>>>> ed6531946445ba46ca7acaaab2f801d32f972f8b
   ],
   "parent": {
     "name": "Rooms",

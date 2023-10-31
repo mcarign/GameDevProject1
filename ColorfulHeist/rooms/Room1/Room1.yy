@@ -181,6 +181,7 @@
 7,-2147483648,56,56,92,56,56,92,-9,56,-29,-2147483648,1,56,-27,-2147483648,-2,120,1,56,-29,-2147483648,1,60,-26,-2147483648,1,120,-26,-2147483648,
 1,120,-50,-2147483648,1,56,-269,-2147483648,-7,81,1,-2147483648,-8,81,-4,-2147483648,-10,81,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
+<<<<<<< HEAD
 22,91,89,90,91,89,90,91,88,89,90,88,89,90,88,89,90,92,-2147483648,16,47,47,24,-8,-2147483648,7,96,-2147483648,-2147483648,96,
 -2147483648,-2147483648,96,-9,-2147483648,8,96,-2147483648,16,47,47,24,-2147483648,72,-4,-2147483648,14,72,-2147483648,104,-2147483648,-2147483648,104,-2147483648,-2147483648,104,-2147483648,72,-2147483648,-2147483648,
 72,-4,-2147483648,6,104,-2147483648,16,47,47,24,-8,-2147483648,7,112,-2147483648,-2147483648,112,72,-2147483648,104,-6,-2147483648,24,34,20,36,-2147483648,-2147483648,40,28,
@@ -196,6 +197,22 @@
 80,1,32,-8,80,-4,68,-10,80,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
 >>>>>>> parent of c5ed709 (editing with tilesets in tutorial room and main room)
+=======
+6,57,56,91,57,57,92,-11,56,6,-2147483648,16,47,47,24,91,-3,56,-4,-2147483648,7,57,-2147483648,-2147483648,56,-2147483648,-2147483648,56,-9,-2147483648,
+8,56,-2147483648,16,47,47,24,56,72,-4,-2147483648,14,72,-2147483648,57,-2147483648,-2147483648,56,-2147483648,-2147483648,56,-2147483648,72,-2147483648,-2147483648,72,-4,-2147483648,7,56,
+-2147483648,16,47,47,24,56,-7,-2147483648,7,57,-2147483648,-2147483648,56,72,-2147483648,56,-6,-2147483648,24,34,20,36,-2147483648,-2147483648,40,28,28,25,56,-2147483648,
+42,61,-2147483648,42,-2147483648,-2147483648,94,-2147483648,-2147483648,56,58,-2147483648,56,-6,-2147483648,3,16,47,24,-3,-2147483648,15,72,-2147483648,32,56,-2147483648,41,33,33,
+39,-2147483648,-2147483648,94,-2147483648,-2147483648,56,-6,-2147483648,24,34,20,20,1,47,24,-2147483648,-2147483648,34,20,20,26,56,57,52,53,51,52,-2147483648,-2147483648,
+94,72,58,56,-3,-2147483648,5,57,34,20,1,4,-3,28,11,38,72,-2147483648,16,47,47,24,56,-2147483648,-2147483648,72,-4,-2147483648,24,56,
+-2147483648,-2147483648,56,-2147483648,43,33,33,29,28,28,38,48,49,50,49,-2147483648,-2147483648,40,28,28,30,33,45,-4,-2147483648,-2,120,1,36,-4,
+-2147483648,7,51,52,53,48,49,52,48,-3,60,-3,-2147483648,9,49,53,50,48,51,52,92,-2147483648,43,-3,33,5,2,36,-2147483648,-2147483648,
+72,-4,-2147483648,1,72,-9,-2147483648,1,72,-7,-2147483648,6,53,51,52,47,2,36,-3,-2147483648,-2,56,-12,-2147483648,1,81,-7,-2147483648,10,72,
+-2147483648,28,28,30,45,-2147483648,-2147483648,56,42,-8,-2147483648,1,72,-3,-2147483648,1,19,-5,33,1,45,-3,-2147483648,9,49,50,52,49,50,-2147483648,
+56,17,36,-3,-2147483648,1,72,-7,-2147483648,7,32,53,51,52,53,51,52,-4,-2147483648,1,72,-3,-2147483648,5,72,56,16,2,36,-10,
+-2147483648,10,32,72,-2147483648,-2147483648,57,72,-2147483648,-2147483648,72,-2147483648,-6,58,6,56,16,47,2,36,58,-8,-2147483648,1,32,-9,-2147483648,-7,81,4,
+18,28,28,30,-4,33,6,45,64,65,66,64,41,-9,33,-7,80,1,32,-8,80,-4,68,-10,80,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_cave_background","path":"sprites/spr_cave_background/spr_cave_background.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+>>>>>>> ed6531946445ba46ca7acaaab2f801d32f972f8b
   ],
   "parent": {
     "name": "Rooms",

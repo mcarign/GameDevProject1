@@ -35,7 +35,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_camo_bug","path":"objects/obj_camo_bug/obj_camo_bug.yy",},},
@@ -84,6 +84,7 @@
     {"id":{"name":"spr_vine_horizontal","path":"sprites/spr_vine_horizontal/spr_vine_horizontal.yy",},},
     {"id":{"name":"obj_vine_horizontal","path":"objects/obj_vine_horizontal/obj_vine_horizontal.yy",},},
     {"id":{"name":"spr_temp_other","path":"sprites/spr_temp_other/spr_temp_other.yy",},},
+    {"id":{"name":"spr_cave_background","path":"sprites/spr_cave_background/spr_cave_background.yy",},},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},},
     {"id":{"name":"spr_temp_background","path":"sprites/spr_temp_background/spr_temp_background.yy",},},
     {"id":{"name":"obj_hornbill2","path":"objects/obj_hornbill2/obj_hornbill2.yy",},},

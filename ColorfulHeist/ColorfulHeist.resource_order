@@ -62,6 +62,7 @@
     {"name":"spr_vine_horizontal","order":4,"path":"sprites/spr_vine_horizontal/spr_vine_horizontal.yy",},
     {"name":"obj_vine_horizontal","order":14,"path":"objects/obj_vine_horizontal/obj_vine_horizontal.yy",},
     {"name":"spr_temp_other","order":6,"path":"sprites/spr_temp_other/spr_temp_other.yy",},
+    {"name":"spr_cave_background","order":12,"path":"sprites/spr_cave_background/spr_cave_background.yy",},
     {"name":"spr_life","order":11,"path":"sprites/spr_life/spr_life.yy",},
     {"name":"obj_hornbill2","order":22,"path":"objects/obj_hornbill2/obj_hornbill2.yy",},
     {"name":"spr_marker","order":9,"path":"sprites/spr_marker/spr_marker.yy",},
