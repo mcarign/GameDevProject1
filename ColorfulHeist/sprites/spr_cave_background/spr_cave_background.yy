@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_cave_background",
-  "bbox_bottom": 899,
+  "bbox_bottom": 1079,
   "bbox_left": 0,
-  "bbox_right": 999,
+  "bbox_right": 1919,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20b3656c-5188-4d9d-8cab-83777b1744a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64559704-cd21-45d3-9229-facc6fc02bc1",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 900,
+  "height": 1080,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a3dfe748-3db6-45f8-8e23-7889426978d7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b06834f6-100f-4a33-8b15-72cfcd823e6a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20b3656c-5188-4d9d-8cab-83777b1744a1","path":"sprites/spr_cave_background/spr_cave_background.yy",},},},"Disabled":false,"id":"a5a9e036-5274-4d10-a970-9e8ec4125d0f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"64559704-cd21-45d3-9229-facc6fc02bc1","path":"sprites/spr_cave_background/spr_cave_background.yy",},},},"Disabled":false,"id":"b7d7365b-06c3-4ba1-b039-f2cc37ce2ab3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1000,
+  "width": 1920,
 }
