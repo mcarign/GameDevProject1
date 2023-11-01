@@ -25,10 +25,12 @@ if(instance_place(x,y, obj_vine_vertical)){
 	if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability == Ability.NoAbility{
 		ability = Ability.Camoflauge;
 		camo_bug_count-= 1;
+		audio_play_sound(snd_camo_activate,10,false);
 		alarm[0] = ability_timer;
 	}else if horn_beetle_count > 0 and keyboard_check_pressed(ord("X")) and ability == Ability.NoAbility{
 		ability = Ability.Rampage;
 		horn_beetle_count-= 1;
+		audio_play_sound(snd_rampage_activate,10,false);
 		alarm[0] = ability_timer;
 	}
 }else{
@@ -42,7 +44,7 @@ if(instance_place(x,y, obj_vine_vertical)){
 		ability = Ability.Rampage;
 		horn_beetle_count-= 1;
 		alarm[0] = ability_timer;
-		//audio_play_sound(snd_rampage_active,10,false);
+		audio_play_sound(snd_rampage_activate,10,false);
 	}
 }
 
