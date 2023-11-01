@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_tongue.wav",
   "type": 0,
-  "volume": 0.66,
+  "volume": 0.46,
 }

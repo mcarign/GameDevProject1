@@ -2,7 +2,9 @@ var jump_height = -5.7;
 
 /* Press "V" key to shoot out tongue */
 if(keyboard_check(ord("V"))){
-	audio_play_sound(snd_tongue, 10, false);
+	if !audio_is_playing(snd_tongue){
+		audio_play_sound(snd_tongue, 10, false);
+	}
 	instance_create_layer(x, y, "Instances", obj_tongue);
 }
 
