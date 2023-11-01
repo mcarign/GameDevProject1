@@ -1,0 +1,81 @@
+LICENSING INFO
+
+Artwork
+Art was made by Anthony using Piskle
+AI generated art was only used for our victory screen, and our loss screen, and to generate those artworks we used a combination of the following:
+https://www.midjourneyai.ai/
+https://www.canva.com/
+https://imgflip.com/demotivational-maker
+
+
+
+
+Music and Sound Effects
+All music and sound effects were found either from https://freesound.org/ or from https://www.youtube.com/
+8-bit jump sound.wav by vibritherabjit123
+https://freesound.org/people/vibritherabjit123/sounds/644410/
+
+
+Powerup 07.wav by MATRIXXX_
+https://freesound.org/people/MATRIXXX_/sounds/523649/
+
+
+Deactivate Camo is Powerup 07.wav just reversed
+
+
+yoshi tongue | Sound Effect by Sound FX
+https://www.youtube.com/watch?v=laJQ_9DZ0No
+
+
+Game Die by Jofae 
+https://freesound.org/people/Jofae/sounds/364929/
+
+
+Main Game Soundtrack: 
+The Temple.mp3 by deleted_user_6515881
+https://freesound.org/people/deleted_user_6515881/sounds/352764/
+
+
+vine stretch 5.wav by Halleck
+https://freesound.org/people/Halleck/sounds/121728/
+
+Pick up bug:
+SFX_STICKERRIPPER_palm_03.wav by MrFossy
+https://freesound.org/people/MrFossy/sounds/590413/
+
+
+Enemy_Hit.wav by D001447733
+https://freesound.org/people/D001447733/sounds/464623/
+
+
+Upgrade by colorsCrimsonTears
+
+
+https://freesound.org/people/colorsCrimsonTears/sounds/607409/
+
+
+Downgrade is just Upgrade reversed
+
+
+Title Screen music:
+SFX_Jungle_title.wav
+Jungle Mystic Ambient Mastered.wav by szegvari
+
+
+https://freesound.org/people/szegvari/sounds/559471/
+
+
+Goblin Growl by qubodup
+SFX_growl.wav in our code
+https://freesound.org/people/qubodup/sounds/442817/
+
+
+You Lose Screen:
+SFX_You_Lose.wav in our code
+Piano, "Window Piano" - 135bpm by tokyo.eth
+https://freesound.org/people/tukyo.eth/sounds/625694/
+
+You Win Screen:
+SFX_You_Win.wav in our code
+Level win.wav by Tuudurt
+https://freesound.org/people/Tuudurt/sounds/258142/

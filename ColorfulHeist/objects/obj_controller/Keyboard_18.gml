@@ -4,6 +4,10 @@ if keyboard_check_pressed(ord("R")){
 }
 if keyboard_check_pressed(ord("T")){
 	room_goto_next();
+} 
+
+if (room == YouLose or room == YouWin) {
+	 room_goto( TitleScreen);
 }
 
 if keyboard_check_pressed(ord("F")){
