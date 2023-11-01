@@ -1,6 +1,6 @@
 
-if obj_controller.has_key {
+if has_key {
 	instance_destroy(other);
-	obj_controller.has_key = false;
+	has_key = false;
 }
 
