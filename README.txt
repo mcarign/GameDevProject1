@@ -16,4 +16,5 @@ nce the key is retrieved, the gate will break and you are able to exit the tutor
 Cheat Codes:
 ALT + R: Restarts the room 
 ALT + T: Skip from the tutorial room to the main room 
+ALT + F: Grants the player a camo bug, horn beetle, and an extra life
 ESC: Exit the game 
