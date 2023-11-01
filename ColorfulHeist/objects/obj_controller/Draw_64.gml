@@ -44,6 +44,15 @@ if (instance_exists(obj_player)) {
 
 }
 
+// UI for key
+if (instance_exists(obj_player)) {
+	if (obj_player.has_key = true) {
+		var key_sprite = spr_key;
+		
+		draw_sprite(key_sprite, 0, 1800, 80);
+	}
+}
+
 if room == TitleScreen{
 	draw_text(560,447, "Press Space to Start");	
 }
