@@ -62,7 +62,12 @@ if (global.game_over) {
 	room_goto(YouLose);
     
 }
-if room == YouLose or room == YouWin{
+if room == YouLose{
 	draw_set_halign(fa_center);
 	draw_text(300, room_height / 2 , "Game Over! Press R to restart.");
+}
+
+if room == YouWin {
+	draw_set_halign(fa_center);
+	draw_text(300, room_height / 2 , "Want to Play Again? Press R to restart.");
 }
