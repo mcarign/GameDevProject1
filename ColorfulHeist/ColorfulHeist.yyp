@@ -76,6 +76,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"spr_player_climb","path":"sprites/spr_player_climb/spr_player_climb.yy",},},
     {"id":{"name":"snd_rampage_deactivate","path":"sounds/snd_rampage_deactivate/snd_rampage_deactivate.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"obj_tutorial_instructions","path":"objects/obj_tutorial_instructions/obj_tutorial_instructions.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},},
+    {"id":{"name":"snd_enemy_death","path":"sounds/snd_enemy_death/snd_enemy_death.yy",},},
     {"id":{"name":"spr_hornbill","path":"sprites/spr_hornbill/spr_hornbill.yy",},},
     {"id":{"name":"obj_artifact","path":"objects/obj_artifact/obj_artifact.yy",},},
     {"id":{"name":"spr_vine_horizontal","path":"sprites/spr_vine_horizontal/spr_vine_horizontal.yy",},},
@@ -117,6 +119,7 @@
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Room_Tutorial","path":"rooms/Room_Tutorial/Room_Tutorial.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
