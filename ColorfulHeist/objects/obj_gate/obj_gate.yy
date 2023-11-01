@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_death",
-    "path": "sprites/spr_death/spr_death.yy",
+    "name": "spr_gate",
+    "path": "sprites/spr_gate/spr_gate.yy",
   },
   "spriteMaskId": null,
   "visible": true,
