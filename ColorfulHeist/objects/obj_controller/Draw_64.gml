@@ -49,7 +49,11 @@ if room == TitleScreen{
 }
 
 if (global.game_over) {
-//	room_goto(YouLose);
-    draw_set_halign(fa_center);
-    draw_text(room_width / 2, room_height / 2, "Game Over! Press R to restart.");
+	global.game_over = false;
+	room_goto(YouLose);
+    
+}
+if room == YouLose or room == YouWin{
+	draw_set_halign(fa_center);
+	draw_text(300, room_height / 2 , "Game Over! Press R to restart.");
 }
