@@ -33,5 +33,5 @@
     "path": "sprites/spr_temp_other/spr_temp_other.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
