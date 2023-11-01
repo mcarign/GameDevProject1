@@ -9,6 +9,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"hsp","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_boomslang","path":"objects/obj_boomslang/obj_boomslang.yy",},"propertyId":{"name":"death_animation","path":"objects/obj_boomslang/obj_boomslang.yy",},"value":"obj_hornbill_death",},
   ],
   "parent": {
     "name": "Objects",

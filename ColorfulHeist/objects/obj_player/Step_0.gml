@@ -73,8 +73,8 @@ if(state == States.Climbing){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		//if image_xscale == 1{ image_angle = 90;
-		//}else{image_angle = -90;}
+		if image_xscale == 1{ image_angle = 90;
+		}else{image_angle = -90;}
 		//image_angle = 0;
 		y -= climb_speed;
 	}
@@ -82,8 +82,8 @@ if(state == States.Climbing){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		//if image_xscale == 1{ image_angle = 270;
-		//}else{image_angle = -270;}
+		if image_xscale == 1{ image_angle = 270;
+		}else{image_angle = -270;}
 		//image_angle = 180;
 		y += climb_speed;
 	}
@@ -91,8 +91,8 @@ if(state == States.Climbing){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		//if image_xscale == 1{ image_angle = 180;
-		//}else{image_angle = 0;}
+		if image_xscale == 1{ image_angle = 180;
+		}else{image_angle = 0;}
 		//image_angle = 90;
 		x -= climb_speed;
 	}
@@ -100,8 +100,8 @@ if(state == States.Climbing){
 		gravity = 0;
 		move_speed = 0;
 		jump_height = 0;
-		//if image_xscale == 1{ image_angle = 0;
-		//}else{image_angle = 180;}
+		if image_xscale == 1{ image_angle = 0;
+		}else{image_angle = 180;}
 		//image_angle = -90;
 		x += climb_speed;
 	}

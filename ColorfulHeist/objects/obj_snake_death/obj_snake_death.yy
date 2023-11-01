@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_dead",
+  "name": "obj_snake_death",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_other",
-    "path": "sprites/spr_temp_other/spr_temp_other.yy",
+    "name": "spr_snake_death",
+    "path": "sprites/spr_snake_death/spr_snake_death.yy",
   },
   "spriteMaskId": null,
   "visible": true,

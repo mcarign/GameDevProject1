@@ -6,6 +6,6 @@ if obj_player.state == States.Regular{
 	if obj_player.image_xscale == 1{
 		image_angle = obj_player.image_angle;
 	}else{
-		image_angle = obj_player.image_angle + 90;
+		image_angle = obj_player.image_angle + 180;
 	}
 }

@@ -2,7 +2,7 @@
 // Link: https://gamemaker.io/en/tutorials/create-checkpoints-gamemaker
 if room == Room_Tutorial{
 	if (file_exists("tutorial_checkpoint.ini")){
-	    ini_open("checkpoint.ini");
+	    ini_open("tutorial_checkpoint.ini");
 	    x = ini_read_real("player", "x", x);
 	    y = ini_read_real("player", "y", y);
 	    ini_close();
