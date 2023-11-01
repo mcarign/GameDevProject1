@@ -54,7 +54,7 @@ if (instance_exists(obj_player)) {
 }
 
 if room == TitleScreen{
-	draw_text(560,447, "Press Space to Start");	
+	draw_text(875,600, "Press Space to Start");	
 }
 
 if (global.game_over) {
