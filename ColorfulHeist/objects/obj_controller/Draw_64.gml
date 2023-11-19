@@ -10,14 +10,13 @@ var x_offset = 48;
 var ability_offset = 5;
 
 if(room == Room_Tutorial || room == Room1){
-	draw_rectangle_color(50, 10, 215, 45, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	draw_rectangle_color(50, 10, 215, 45, c_black, c_black, c_black, c_black, false);
 	// UI for lives
 	for (var i = 0; i < lives; i++) {
 	    var x_position = x_start + (x_offset * i);
 	    draw_sprite(life_sprite, 0, x_position, 30);
 	}
 	
-	draw_rectangle_color(x_offset-10, 50, x_offset+250, 210, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
 	// UI for the abilities 
 	if (instance_exists(obj_player)) {
 	    var camo_bug_sprite = spr_camo_bug;
