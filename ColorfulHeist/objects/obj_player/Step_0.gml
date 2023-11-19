@@ -14,13 +14,13 @@ if(keyboard_check(ord("V"))){
 */
 if(instance_place(x,y, obj_vine_vertical)){
 	if(keyboard_check(vk_space) and state == States.Regular){
-		// Neeed a spr_climbing sprite for this action. 
-		audio_play_sound(snd_vine_grab,10,false);
+		if !audio_is_playing(snd_vine_grab){
+			audio_play_sound(snd_vine_grab,10,false);
+		}
 		state = States.Climbing;
 		vspeed = 0;
 		gravity = 0;
 		// Sprite change if player is climbing with whatever Ability that is currently active
-		
 	}
 	if camo_bug_count > 0 and keyboard_check_pressed(ord("C")) and ability == Ability.NoAbility{
 		ability = Ability.Camoflauge;

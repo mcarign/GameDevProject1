@@ -5,10 +5,12 @@ if room == Room_Tutorial{
 	ini_write_real("player", "x", other.x);
 	ini_write_real("player", "y", other.y);
 	ini_close();
+	sprite_index = spr_checkpoint_on;
 }else if room == Room1{
 	ini_open("checkpoint.ini");
 	ini_write_real("player", "x", other.x);
 	ini_write_real("player", "y", other.y);
 	ini_close();
+	sprite_index = spr_checkpoint_on;
 }
 

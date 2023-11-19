@@ -1,55 +1,51 @@
 // UI for lives 
 draw_set_color(c_orange);
-draw_rectangle(50, 5, 200, 45, false);
+
 
 draw_set_halign(fa_left);
 
 var life_sprite = spr_player;
 var x_start = 80;
 var x_offset = 48;
-
-for (var i = 0; i < lives; i++) {
-    var x_position = x_start + (x_offset * i);
-    draw_sprite(life_sprite, 0, x_position, 30);
-}
-
-
 var ability_offset = 5;
 
+if(room == Room_Tutorial || room == Room1){
+	draw_rectangle_color(50, 10, 215, 45, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	// UI for lives
+	for (var i = 0; i < lives; i++) {
+	    var x_position = x_start + (x_offset * i);
+	    draw_sprite(life_sprite, 0, x_position, 30);
+	}
+	
+	draw_rectangle_color(x_offset-10, 50, x_offset+250, 210, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+	// UI for the abilities 
+	if (instance_exists(obj_player)) {
+	    var camo_bug_sprite = spr_camo_bug;
 
-// UI for the abilities 
-if (instance_exists(obj_player)) {
+	    for (var i = 0; i < obj_player.camo_bug_count; i++) {
+	        draw_sprite(camo_bug_sprite, 0, x_start + ability_offset, 180);
+	        draw_text(x_start + ability_offset + 30, 160, string(max(0, obj_player.camo_bug_count)));
+			draw_text(x_start + ability_offset + 30, 180, "Press C to activate");
+	    }
+	}
 
-    var camo_bug_sprite = spr_camo_bug;
+	if (instance_exists(obj_player)) {
+	    var horn_beetle_sprite = spr_horn_beetle;
 
-        for (var i = 0; i < obj_player.camo_bug_count; i++) {
-            draw_sprite(camo_bug_sprite, 0, x_start + ability_offset, 80);
-            draw_text(x_start + ability_offset + 30, 80, string(max(0, obj_player.camo_bug_count)));
-			draw_text(x_start + ability_offset + 30, 100, "Press C to activate");
-        }
-		 
+	    for (var i = 0; i < obj_player.horn_beetle_count; i++) {
+	        draw_sprite(horn_beetle_sprite, 0, x_start + ability_offset, 130);
+	        draw_text(x_start + ability_offset + 30, 110, string(max(0, obj_player.horn_beetle_count)));
+			draw_text(x_start + ability_offset + 30, 135, "Press X to activate");
+	    }
+	}
 
-}
-
-if (instance_exists(obj_player)) {
-
-    var horn_beetle_sprite = spr_horn_beetle;
-
-        for (var i = 0; i < obj_player.horn_beetle_count; i++) {
-            draw_sprite(horn_beetle_sprite, 0, x_start + ability_offset, 130);
-            draw_text(x_start + ability_offset + 30, 130, string(max(0, obj_player.horn_beetle_count)));
-			draw_text(x_start + ability_offset + 30, 150, "Press X to activate");
-        }
-		 
-
-}
-
-// UI for key
-if (instance_exists(obj_player)) {
-	if (obj_player.has_key = true) {
-		var key_sprite = spr_key;
+	// UI for key
+	if (instance_exists(obj_player)) {
+		if (obj_player.has_key = true) {
+			var key_sprite = spr_key;
 		
-		draw_sprite(key_sprite, 0, 1800, 80);
+			draw_sprite(key_sprite, 0, x_start + 75, 80);
+		}
 	}
 }
 

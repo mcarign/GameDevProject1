@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_key.wav",
   "type": 0,
-  "volume": 0.83,
+  "volume": 0.89,
 }

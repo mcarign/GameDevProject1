@@ -1,5 +1,6 @@
 
 sprite_index = spr_player;
+y-=2;
 if ability == Ability.Camoflauge{
 	audio_play_sound(snd_camo_deactivate,10,false);
 }else if ability == Ability.Rampage{

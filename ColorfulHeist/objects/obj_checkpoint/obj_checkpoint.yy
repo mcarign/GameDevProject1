@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_temp_other",
-    "path": "sprites/spr_temp_other/spr_temp_other.yy",
+    "name": "spr_checkpoint_off",
+    "path": "sprites/spr_checkpoint_off/spr_checkpoint_off.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
